@@ -3,8 +3,8 @@ import type { Metadata } from 'next'
 
 export default function Home() {
   return (
-    <main>
-      <section className="flex flex-col items-center justify-center h-screen  -my-20 md:-mt-48 px-8">
+    <main className='mt-auto'>
+      <section className="flex flex-col items-center justify-center h-screen my-20 md:-mt-48 px-8">
             <div className="flex flex-col items-center justify-center text-center h-screen-half">
                 <img className="md:hidden object-cover w-15 h-60 rounded-lg mb-5" 
                   src="/yo.jpeg"
@@ -92,8 +92,6 @@ export default function Home() {
                 </div>
             </div>
         </section>
-        <div className="h-80">
-        </div>
     </main>
   )
 }
