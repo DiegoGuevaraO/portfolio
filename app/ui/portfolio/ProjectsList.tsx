@@ -1,7 +1,7 @@
 import { getFilteredProjects } from "@/app/lib/data";
 
-export default function ProjectsList({query}: {query: string}){
-    const projects = getFilteredProjects(query);
+export default function ProjectsList({keyword}: {keyword: string}){
+    const projects = getFilteredProjects(keyword);
 
     return(
         <>
@@ -38,8 +38,6 @@ export default function ProjectsList({query}: {query: string}){
             })
 
             }
-            <div className="h-80">
-            </div>
         </>
     );
 }
