@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import type { Metadata } from 'next'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
                   alt="Diego Guevara Orduña"
                 />
                 <h1 className="text-5xl sm:text-6xl lg:text-9xl">Diego Guevara</h1>
-                <h2 className="font-light text-4xl sm:text-5xl lg:text-8xl">Software Developer</h2>
+                <h2 id="position" className="font-light text-4xl sm:text-5xl lg:text-8xl">Software Developer</h2>
             </div>
         </section>
         <section className="flex items-center justify-between px-8 mb-20 tracking-wider">
@@ -88,11 +89,6 @@ export default function Home() {
                     <p>2018 - 2022</p>
                 </div>
                 <div className="flex flex-col col-span-4 ">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eveniet deleniti tempore veritatis
-                        adipisci accusantium voluptatibus vel aperiam ex alias officiis deserunt, ad, iste id cum minus sit
-                        laudantium ullam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi non incidunt
-                        voluptates molestiae delectus nulla quisquam aperiam voluptas tempora distinctio! Ipsa cupiditate
-                        harum voluptates praesentium. Suscipit itaque officiis odio ut!</p>
                 </div>
             </div>
         </section>

@@ -1,13 +1,13 @@
-import Link from "next/link";
+import NavLinks from "./NavLinks";
 
-const NavBar = () => {
+const NavBar: React.FC = () => {
     return(
         <header>
             <nav className="w-full">
                     <div className="flex justify-between w-full px-16 py-8">
                         <div>
                             <ul className="flex flex-col text-left md:flex-row space-y-5 md:space-y-0 md:space-x-6 text-xl md:text-2xl">
-                                
+                                <NavLinks />
                             </ul>
                         </div>
                         <div>

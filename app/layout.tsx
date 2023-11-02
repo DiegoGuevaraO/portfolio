@@ -2,17 +2,17 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
-import NavBar from './ui/NavBar'
-import Footer from './ui/Footer'
+import NavBar from './ui/navbar/NavBar'
+import Footer from './ui/footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    template: 'Diego Guevara - %s',
+    template: 'Diego Guevara | %s',
     default: 'Diego Guevara',
   },
-  description: 'Diego Guevara Résumé.'
+  description: 'Diego Guevara Curriculum Vitae.'
 }
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <div className="relative text-gray-800 bg-gray-50">
+      <div id='main-layout' className="relative">
         <NavBar />
         {children}
         <Footer />
