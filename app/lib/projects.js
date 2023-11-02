@@ -53,7 +53,7 @@ export const Projects = [
     {
         name:"Next.js 14 Dashboard",
         img: "/dashboard.png",
-        description:"Dashboard, using new features added in Next.js 14. Still in development.",
+        description:"Dashboard, using new features added in Next.js 14. user: user@nextmail.com password: 123456",
         keywords:"react, nextjs, tailwind",
         technologies:[
             {
@@ -74,26 +74,5 @@ export const Projects = [
             },
         ],
         href:"https://nextjs-dashboard-xi-gilt.vercel.app/"
-    },
-    {
-        name:"Curriculum Vitae",
-        img: "/cv.png",
-        description:"Of course there's also this project. Dynamic NavBar using Next's App Router.",
-        keywords:"react, nextjs, tailwind",
-        technologies:[
-            {
-                name:"React",
-                icon:<FaReact className="h-3 w-3" />
-            },
-            {
-                name:"Next.js 13",
-                icon:<TbBrandNextjs className="h-3 w-3" />
-            },
-            {
-                name:"Tailwind",
-                icon:<BiLogoTailwindCss className="h-3 w-3" />
-            },
-        ],
-        href:"/"
     }
 ];
