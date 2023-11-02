@@ -7,7 +7,7 @@ export default function ProjectsList({keyword}: {keyword: string}){
         <>
             {projects.map((project, key) => {
                 return(
-                    <div key={key} className="rounded-lg border p-4">
+                    <div key={key} className="rounded-lg p-4 bg-secondary">
                         <img src={project.img} alt={project.name} className="w-full h-48 rounded-md object-cover" />
                         <div className="px-1 py-4">
                             <div className="font-bold text-xl mb-2">

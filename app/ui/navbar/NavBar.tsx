@@ -2,7 +2,7 @@ import NavLinks from "./NavLinks";
 
 const NavBar: React.FC = () => {
     return(
-        <header className="mt-auto z-50">
+        <header className="z-50 top-0">
             <nav className="w-full">
                     <div className="flex justify-between w-full px-16 py-8">
                         <div>
