@@ -4,8 +4,8 @@ import type { Metadata } from 'next'
 export default function Home() {
   return (
     <main className='mt-auto'>
-      <section className="flex flex-col items-center justify-center h-screen my-20 md:-mt-48 px-8">
-            <div className="flex flex-col items-center justify-center text-center h-screen-half">
+      <section className="flex flex-col items-center justify-center md:h-screen px-8">
+            <div className="flex flex-col items-center justify-center text-center">
                 <img className="md:hidden object-cover w-15 h-60 rounded-lg mb-5" 
                   src="/yo.jpeg"
                   alt="Diego Guevara Orduña"

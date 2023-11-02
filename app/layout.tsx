@@ -22,12 +22,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-      <div id='main-layout' className="flex flex-col min-h-screen bg-back text-main">
-        <NavBar />
-        {children}
-        <Footer />
-      </div>
+      <body className={`${inter.className} antialiased`}>
+        <div id='main-layout' className="flex flex-col min-h-screen bg-back text-main">
+          <NavBar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   )
