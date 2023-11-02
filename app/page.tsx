@@ -11,7 +11,7 @@ export default function Home() {
                   alt="Diego Guevara Orduña"
                 />
                 <h1 className="text-5xl sm:text-6xl lg:text-9xl">Diego Guevara</h1>
-                <h2 id="position" className="font-light text-4xl sm:text-5xl lg:text-8xl">Software Developer</h2>
+                <h2 id="position" className="font-light text-4xl m-5 lg:text-5xl lg:pt-6">Software Developer</h2>
             </div>
         </section>
         <section className="flex items-center justify-between px-8 mb-20 tracking-wider">
@@ -19,19 +19,20 @@ export default function Home() {
                 <div className="flex flex-col px-10 md:px-20">
                     <h3 className="text-xl font-bold">Skills</h3>
                     <br />
-                    <span className="text-lg">Management</span>
-                    <span className="text-lg">Collaboration</span>
-                    <span className="text-lg">Communication</span>
+                    <span className="text-lg">Web development</span>
+                    <span className="text-lg">Frontend</span>
+                    <span className="text-lg">Backend</span>
+                    <span className="text-lg">Autodidact</span>
                 </div>
                 <div className="px-10 md:px-20">
                     <h3 className="text-xl font-bold">Summary</h3>
                     <br />
-                    <p className="w-full md:w-2/3">Information Technology Engineer with experience in web development and deep knowledge in Python, HTML and JavaScript.</p>
+                    <p className="w-full md:w-2/3">Information Technology Engineer with experience in web development and deep knowledge in Python, JavaScript and Typescript.</p>
                 </div>
-                <div className="px-10 md:px-20">
-                    <br />
+                <div className="md:px-20">
                     <h3 id='contact' className="text-xl font-bold">Contact</h3>
-                    <a className="text-xl hover:text-active-link" href="mailto:dguevaraorduna@gmail.com">dguevaraorduna@gmail.com</a>
+                    <br />
+                    <a className="text-xl hover:text-active-link text-center md:text-left" href="mailto:dguevaraorduna@gmail.com">dguevaraorduna@gmail.com</a>
                     <p>834 180 2619</p>
                 </div>
             </div>
