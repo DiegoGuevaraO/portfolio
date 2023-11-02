@@ -26,7 +26,7 @@ const NavLinks: React.FC = () => {
                     key={link.name}
                     href={link.href}
                     className={clsx(
-                        "text-left hover:text-active-link hover:border-b-4 rounded-md border-secondary",
+                        "text-left hover:text-active-link hover:border-b-4 rounded-md border-main",
                         {
                             "text-active-link": pathname === link.href 
                         }

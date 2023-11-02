@@ -31,7 +31,7 @@ export default function Home() {
                 <div className="px-10 md:px-20">
                     <br />
                     <h3 id='contact' className="text-xl font-bold">Contact</h3>
-                    <a className="text-xl hover:text-blue-600" href="mailto:dguevaraorduna@gmail.com">dguevaraorduna@gmail.com</a>
+                    <a className="text-xl hover:text-active-link" href="mailto:dguevaraorduna@gmail.com">dguevaraorduna@gmail.com</a>
                     <p>834 180 2619</p>
                 </div>
             </div>
