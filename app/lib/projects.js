@@ -8,7 +8,7 @@ export const Projects = [
         name:"Blog Page",
         img: "/blog-app-project.png",
         description:"Simple blog with two entries added dynamically including routes.",
-        keywords:"react, nextjs, tailwind",
+        keywords:"react, nextjs, tailwind, markdown",
         technologies:[
             {
                 name:"React",
@@ -29,7 +29,7 @@ export const Projects = [
         name:"Django Web Map",
         img: "/web-map.png",
         description:"Map where you can add and name markers that are stored in a database.",
-        keywords:"django, python, bootstrap, mysql",
+        keywords:"django, python, bootstrap, mysql, database",
         technologies:[
             {
                 name:"Django",
@@ -54,7 +54,7 @@ export const Projects = [
         name:"Next.js 14 Dashboard",
         img: "/dashboard.png",
         description:"Dashboard, using new features added in Next.js 14. user: user@nextmail.com password: 123456",
-        keywords:"react, nextjs, tailwind",
+        keywords:"react, nextjs, tailwind, database",
         technologies:[
             {
                 name:"React",
