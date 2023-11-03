@@ -11,7 +11,7 @@ export default function Home() {
                   alt="Diego Guevara Orduña"
                 />
                 <h1 className="text-5xl sm:text-6xl lg:text-9xl">Diego Guevara</h1>
-                <h2 id="position" className="font-light text-4xl m-5 lg:text-5xl lg:pt-6">Software Developer</h2>
+                <h2 id="position" className="font-light text-4xl m-5 lg:text-5xl lg:pt-6">Web Developer</h2>
             </div>
         </section>
         <section className="flex items-center justify-between px-8 mb-20 tracking-wider">
