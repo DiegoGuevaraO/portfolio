@@ -1,4 +1,5 @@
 import { Projects } from '@/app/lib/projects';
+import type { Project } from './definitions';
 
 export function getFilteredProjects(query: string){
     if (query !== ''){
@@ -13,4 +14,9 @@ export function getFilteredProjects(query: string){
         return Projects;
     }
 
+}
+
+export function getProjectById(id: string): Project | undefined{
+    const filteredProject = Projects.find((project) => project.id === id);
+    return filteredProject;
 }

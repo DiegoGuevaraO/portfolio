@@ -1,4 +1,5 @@
 import { getFilteredProjects } from "@/app/lib/data";
+import NoProjects from "./NoProjects";
 
 export default function ProjectsList({keyword}: {keyword: string}){
     const projects = getFilteredProjects(keyword);
@@ -32,9 +33,10 @@ export default function ProjectsList({keyword}: {keyword: string}){
                                     })
                                 }
                             </div>
+                            {/* href={`/portfolio/project/${project.id}`} */}
                             <a href={project.href} target="_blank" className="text-active-link absolute bottom-4 left-4 rounded">
                             <button
-                                className="middle none center rounded-lg py-3 px-6 font-sans text-xs font-bold uppercase text-active-link transition-all hover:bg-main active:bg-back disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                className="middle none center rounded-lg py-3 px-6 font-sans text-xs font-bold uppercase text-active-link transition-all hover:bg-main hover:text-black active:bg-back active:text-active-link disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                                 data-ripple-dark="true"
                             >
                                 Check it out!
@@ -45,9 +47,7 @@ export default function ProjectsList({keyword}: {keyword: string}){
                 })}
             </div>
                 :
-            <div className="flex flex-auto items-center w-full h-96">
-                <p className="text-2xl m-auto">No projects were found with the entered keywords.</p>
-            </div>
+            <NoProjects />
             }
         </>
     );

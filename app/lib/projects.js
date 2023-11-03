@@ -5,6 +5,7 @@ import { SiMysql } from "react-icons/si";
 
 export const Projects = [
     {
+        id: "1",
         name:"Blog Page",
         img: "/blog-app-project.png",
         description:"Simple blog with two entries added dynamically including routes.",
@@ -26,6 +27,7 @@ export const Projects = [
         href:"https://nextjs-tutorial-ten-sigma.vercel.app/"
     },
     {
+        id: "2",
         name:"Django Web Map",
         img: "/web-map.png",
         description:"Map where you can add and name markers that are stored in a database.",
@@ -51,6 +53,7 @@ export const Projects = [
         href:"https://github.com/DiegoGuevaraO/web-map"
     },
     {
+        id: "3",
         name:"Next.js 14 Dashboard",
         img: "/dashboard.png",
         description:"Dashboard, using new features added in Next.js 14. user: user@nextmail.com password: 123456",
