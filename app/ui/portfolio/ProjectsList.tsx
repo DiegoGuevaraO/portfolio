@@ -16,9 +16,6 @@ export default function ProjectsList({keyword}: {keyword: string}){
                                 <div className="font-bold text-xl mb-2">
                                     {project.name}
                                 </div>
-                                <p className="">
-                                    {project.description}
-                                </p>
                             </div>
                             <div className="mt-4 flex flex-wrap items-center gap-5 max-w-fit mb-20">
                                 {project.technologies.map((tech,techKey) => {
@@ -33,14 +30,13 @@ export default function ProjectsList({keyword}: {keyword: string}){
                                     })
                                 }
                             </div>
-                            {/* href={`/portfolio/project/${project.id}`} */}
-                            <a href={project.href} target="_blank" className="text-active-link absolute bottom-4 left-4 rounded">
-                            <button
-                                className="middle none center rounded-lg py-3 px-6 font-sans text-xs font-bold uppercase text-active-link transition-all hover:bg-main hover:text-black active:bg-back active:text-active-link disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-                                data-ripple-dark="true"
-                            >
-                                Check it out!
-                            </button>
+                            <a href={`/portfolio/project/${project.id}`} className="text-active-link absolute bottom-4 left-4 rounded">
+                                <button
+                                    className="middle none center rounded-lg py-3 px-6 font-sans text-xs font-bold uppercase text-active-link transition-all hover:bg-main hover:text-black active:bg-back active:text-active-link disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                                    data-ripple-dark="true"
+                                >
+                                    Check it out!
+                                </button>
                             </a>
                         </div>
                     );
