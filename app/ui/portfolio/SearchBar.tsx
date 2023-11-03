@@ -30,7 +30,7 @@ export default function SearchBar() {
                     name="search"
                     id="search"
                     placeholder="Search projects..."
-                    className="bg-transparent mr-3 px-2 h-10 w-auto"
+                    className="bg-transparent mr-3 px-2 h-10 w-auto border-2 rounded-lg border-main"
                     autoComplete='off'
                     onChange={(e) => {
                         handleSearch(e.target.value);
