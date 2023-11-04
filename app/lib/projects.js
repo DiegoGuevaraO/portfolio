@@ -8,7 +8,7 @@ export const Projects = [
         id: "1",
         name:"Blog Page",
         img: "/blog-app-project.png",
-        description:"Simple blog with two entries added dynamically including routes.",
+        description:"Blog page with an index that shows every post. The blogs are added dynaically using markdown files and can be accesed by a dynamic URL generated used the blog posts name. Made with Next.js 13 and styled with Tailwind.",
         keywords:"react, nextjs, tailwind, markdown",
         technologies:[
             {
@@ -30,8 +30,8 @@ export const Projects = [
         id: "2",
         name:"Django Web Map",
         img: "/web-map.png",
-        description:"Map where you can add and name markers that are stored in a database.",
-        keywords:"django, python, bootstrap, mysql, database",
+        description:"Map where you can add markers, name them and have them be persistent. Built with Django, it uses the Leaflet JavaScript library and PostgreSQL to store all the marker data. You can visit the GitHub repository.",
+        keywords:"django, python, bootstrap, mysql, database, leaflet",
         technologies:[
             {
                 name:"Django",
@@ -56,7 +56,7 @@ export const Projects = [
         id: "3",
         name:"Next.js 14 Dashboard",
         img: "/dashboard.png",
-        description:"Dashboard, using new features added in Next.js 14. user: user@nextmail.com password: 123456",
+        description:"Dashboard to manage invoices, you can add, modify or delete invoices stored in a PostgreSQL database. It has a search bar and uses dynamic routes, async data fetching, server and client rendering. Built with Next.js 14 and Tailwind. You can access it with the following credentials: user@nextmail.com password: 123456",
         keywords:"react, nextjs, tailwind, database",
         technologies:[
             {
