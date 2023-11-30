@@ -1,5 +1,5 @@
 import { FaReact, FaBootstrap } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+import { TbBrandNextjs, TbApi } from "react-icons/tb";
 import { BiLogoTailwindCss , BiLogoDjango, BiLogoPython, BiLogoPostgresql } from "react-icons/bi";
 import { SiMysql } from "react-icons/si";
 
@@ -77,5 +77,31 @@ export const Projects = [
             },
         ],
         href:"https://nextjs-dashboard-xi-gilt.vercel.app/"
+    },
+    {
+        id: "4",
+        name:"Simple Weather App",
+        img: "/weather-app.png",
+        description:"Current weather app displaying current weather conditions of the city the user enters in the search bar. It uses OpenWeather API to fetch the data.",
+        keywords:"react, nextjs, tailwind, database",
+        technologies:[
+            {
+                name:"React",
+                icon:<FaReact className="h-3 w-3" />
+            },
+            {
+                name:"Next.js 14",
+                icon:<TbBrandNextjs className="h-3 w-3" />
+            },
+            {
+                name:"Material UI",
+                icon:<FaReact className="h-3 w-3" />
+            },
+            {
+                name:"API Handling",
+                icon:<TbApi className="h-3 w-3" />
+            },
+        ],
+        href:"https://weather-app-nu-topaz.vercel.app/"
     }
 ];
